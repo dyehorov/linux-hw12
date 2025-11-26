@@ -1,0 +1,15 @@
+    1  cd Desktop/Linux
+    2  git clone git@github.com:dyehorov/linux-hw12.git
+    3  cd linux-hw12
+    4  ls -la
+    5  git checkout -b feature
+    6  git branch
+    7  nano README.md
+    8  git commit -m "add README.md file"
+    9  git add README.md
+   10  git commit -m "add README.md file"
+   11  git commit -amend -m "add README.md file ammend"
+   12  git commit --amend -m "add README.md file ammend"
+   13  git push origin feature
+   14  git checkout main
+   15  git merge feature
